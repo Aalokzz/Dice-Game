@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: solid 20px red;
+    margin: 0;
+
+}
+img {
+    width: 350px;
+    height: 350px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: gold;
+    margin-top: ;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+}
+
+header {
+    background-color: white;
+    display: block;
+    font-size: 4rem;
+    padding: 4vh;
+    text-align: center;
+    font-weight: 400;
+    height: 7.5vh;
+
+
+}
+
+.button-container {
+    display: flex;
+    background-color: white;
+    height: 8vh;
+    margin-bottom: 0;
+    justify-content: center;
+    align-self: center;
+    padding: 1rem;
+    margin-bottom: 0;
+
+}
+
+button {
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem, 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    background-color: gold;
+   
+}
+footer {
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.winner-display {
+    display: none;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: flex; /* Already applied in your code */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    text-align: center; /* Center text inside the element */
+    font-size: 2rem; /* Ensure font size is set */
+    height: 5vh; /* Ensure height is sufficient for alignment */
+    padding: 10px;
+    background-color: black; color: white;
+}
